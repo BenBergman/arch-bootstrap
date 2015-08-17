@@ -1,0 +1,57 @@
+#Tools
+
+yaourt
+wget
+zsh
+tmux
+vim
+git
+git-hooks
+ctags
+python(2) twisted
+powerline
+tig
+command-not-found
+
+## GUI
+gnome
+gnome-tweak-tool
+GPU driver
+
+# Configs
+
+git
+zsh
+vim
+
+# Settings
+
+## GUI
+
+Keyboard layout
+Gnome dark theme
+Nebulae wallpaper - `gsettings set org.gnome.desktop.background picture-uri file:///home/ben/... && gsettings set org.gnome.desktop.background picture-options zoom`
+Avatar - `wget http://1.gravatar.com/avatar/eef34c230fb7bef172e6b1eb22a64a07 -O lcd_tux.jpg`
+gsettings set org.gnome.desktop.interface clock-show-date true
+gsettings set org.gnome.desktop.wm.preferences button-layout :minimize,maximize,close
+gsettings set org.gnome.settings-daemon.peripherals.keyboard numlock-state on
+
+## Arch
+
+Locale
+Timezone
+Keyboard layout
+
+## General
+
+ssh key
+
+# Ideas
+
+Gather user input up front and run all tasks in the background in parallel, waiting for prereq input/tasks
+
+## Ways to break things down
+
+System vs user
+GUI vs CLI only
+Distro?
